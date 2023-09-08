@@ -1,0 +1,65 @@
+@font-face {
+    font-family: DancingScript;
+    src: url(../Police/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+body {
+    margin: 0px;
+    background-color: #C9FFE2;
+}
+/* Header */
+header {
+    background-color: #7DD181;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+header > h1 {
+    font-family: DancingScript;
+    text-align: center; 
+    font-size: 5rem;   
+}
+header > img {
+    width: 300px;
+    height: 159px;
+    margin: 30px;
+    border-radius: 100px;
+}
+header .buttomtop{
+    margin: auto;
+    margin-top: 20px;
+}
+.buttomtop > button {
+    border-radius: 50px;
+    background-color: rgba(75, 127, 82, 0.5);
+    font-family: DancingScript;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+/* Nav */
+nav {
+    background-color: #4B7F52;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav > button {
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: rgba(125, 209, 129, 1);
+    font-family: DancingScript;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+/* Main */
+Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+Main > img{
+    width: 800px;
+    height: 230px;
+}
